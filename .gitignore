@@ -1,0 +1,50 @@
+# =============================================================================
+# Git Ignore Rules for Driver Drowsiness Detection
+# =============================================================================
+
+# Large Datasets (MRL Eye Dataset is 85,000+ files - download via notebook or script)
+dataset_mrl/
+mrlEyes_2018_01/
+*.zip
+*.tar
+*.gz
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary model checkpoints and benchmark outputs
+models/temp_benchmark.keras
+*.log

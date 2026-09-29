@@ -1,0 +1,27 @@
+# =============================================================================
+# AIDS2 DS Lab MiniProject: Driver Drowsiness Detection System
+# Project Dependencies
+# =============================================================================
+
+# Deep Learning Framework
+tensorflow>=2.15.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=9.5.0
+
+# Scientific Computing & Data Analysis
+numpy>=1.23.0,<2.0.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Diagnostic Visualization & Charts
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Audio Alert System (Optional for standalone real-time alert)
+pygame>=2.5.0
+
+# Interactive Notebook Environment
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
