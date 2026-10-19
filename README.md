@@ -24,6 +24,12 @@ Built as part of the DS Lab MiniProject for AIDS2. This project compares two app
 
 ---
 
+## System Architecture
+
+![System Architecture](system_architecture.jpg)
+
+---
+
 ## Dataset
 
 This project uses the **[MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset)** (~84,898 images across 37 subjects).
